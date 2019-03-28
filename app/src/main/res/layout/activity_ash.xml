@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ash">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ash_bg"
+        android:scaleType="centerCrop"
+
+
+        />
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:maxLength="200"
+                android:text="Bio :Ash is a fast-paced front liner; capable of breaching, flanking and dividing the Defender's attention in seconds.
+Ash is capable of ranged soft breaching thanks to her modified M120 CREM Breaching Rounds."
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="20sp"></TextView>
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+
+                android:text="Cohen was born and raised in Jerusalem. After secondary school, she enrolled at Tel Aviv University, in the Engineering program, where she did a semester abroad at Boston University. After college she performed her civic duty enlisting in the Israeli Defense Forces. Her background in engineering made her a prime candidate for mechanical maintenance and demolitions."
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="20sp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

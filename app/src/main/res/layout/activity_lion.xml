@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".lion">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lion1"
+        android:scaleType="centerCrop"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="4"
+                android:textColor="@color/colorPrimary"
+
+                android:text="Bio: Olivier Flament grew up in Toulouse, France, where he bucked against his family’s accomplishments and their faith in God. His parents kicked him out and he found himself homeless at 18. He joined the French Army out of desperation, then the 2nd Dragoon Regiment in their role as a CBRN reaction force. GIGN took him in as their biohazard expert. On one mission in Sudan, Yellow Fever broke out. While protecting a field investigation team, his loud voice scared a frightened mob back. He gained the nickname “Lion” from the locals. Finka studied his jacket and recommended Olivier as a CBRN specialist for Rainbow. What’s not on file is the weight of his regrets."
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="20sp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

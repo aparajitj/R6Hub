@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".skyscraper">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXT East Garden"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/ext_east_garden_skyscraper" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXT West Garden"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/ext_west_garden_skyscraper" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXT Ventilation Units"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/ext_ventilation_units_skyscraper"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1f Restaurant"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/onef_restaurant_skyscraper"/>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1f house lobby"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/onef_house_lobby_skyscraper"/>
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2f Hallway"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/twof_hallway_skyscraper"/>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2f House Lobby"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/twof_house_lobby_skyscraper"/>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

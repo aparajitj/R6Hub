@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fortress">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXT Cannon Overlook"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/ext_cannon_overlook_fort" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXT Courtyard Path"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/ext_courtyard_path_fort" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXT Old Roof"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/ext_old_roof_fort"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1f Lobby"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/onef_lobby_fort"/>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1f Hammam Hallway"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/onef_hammam_hallway_fort"/>
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2f Old Tower"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/twof_old_tower_fort"/>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2f Tower Stairs"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/twof_tower_stairs_fort"/>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2f Central Stairs"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                app:srcCompat="@drawable/twof_central_stairs_hall_fort"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

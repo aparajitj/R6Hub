@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".finka">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fin1"
+        android:scaleType="centerCrop"
+
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="4"
+                android:textColor="@color/colorPrimary"
+
+                android:text="Born 3 years after the Chernobyl disaster in Gomel, Belarus, Lera Melnikova was diagnosed with a neuropathy: slow muscle degeneration and loss of sensation in the limbs and extremities. She pushed herself to stay fit to overcome her symptoms. She moved to Novosibirsk and graduated with a Ph.D. in Microbiology and Immunology, uncovering treatments using self-dissolving nanites. It wasn’t a cure but she found remission. Her research saved Spetsnaz operators from hazardous materials and that opened her eyes to new possibilities. She joined the Army, then became the Spetsnaz CBRN Specialist. As for her Finka moniker, got to ask Kapkan or Lera herself."
+
+                android:textSize="36sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

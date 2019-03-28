@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer"
+
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context=".cam_l">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/House"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="House"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="50sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="house"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/house" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:onClick="house"
+                android:text="Chalet"
+                android:textSize="50sp" />
+
+            <ImageButton
+                android:id="@+id/chalet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="chalet"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/chalet1" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plane"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/plane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="plane"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/plane" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="bank"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bank" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Border"
+
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="border"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/border" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Clubhouse"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+
+            <ImageButton
+                android:id="@+id/clubhouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="clubhouse"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/clubhouse" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView7"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Coastline"
+                android:textSize="50sp" />
+
+            <ImageButton
+                android:id="@+id/coastline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="coastline"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/coastline" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Consulate"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/consulate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="consulate"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/consulate" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Favela"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/favela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="favela"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/favela" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hereford Base"
+                android:textSize="50sp"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/hereford"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="hereford"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/hereford" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Kafe Dostoyevsky"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/kafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="kafe"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kafe" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Kanal"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/kanal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="kanal"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/kanal" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Oregon"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/oregon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="oregon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/oregon" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skyscraper"
+                android:fontFamily="@font/product_sans_regular"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/skyscraper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="skyscraper"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/skyscraper" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theme Park"
+                android:textSize="50sp"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/themepark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="park"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/themepark" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Tower"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/tower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="tower"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tower" />
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:text="Yacht"
+                android:textSize="50sp"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/yacht"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="yacht"
+                android:scaleType="fitCenter"
+                android:textSize="50sp"
+                app:srcCompat="@drawable/yacht" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Fortress"
+                android:textSize="50sp" />
+
+            <ImageButton
+                android:id="@+id/fortress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="fortress"
+                android:scaleType="fitCenter"
+                android:textSize="50sp"
+                app:srcCompat="@drawable/fortress" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_gravity="center"
+                android:text="Villa"
+                android:textSize="50sp" />
+
+            <ImageButton
+                android:id="@+id/villa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:onClick="villa"
+                android:scaleType="fitCenter"
+                android:textSize="50sp"
+                app:srcCompat="@drawable/villa" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+
+        app:itemTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/nav_menu" />
+
+
+</android.support.v4.widget.DrawerLayout>
